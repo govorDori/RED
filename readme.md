@@ -16,3 +16,14 @@
     > git config user.email
 - Létrehozzuk a legújabb verziót, eltároljuk a helyi repoba:
     > git commit -m "first commit"
+- Ellenőrzés:
+    > git status
+
+## Összekapcsolás a távoli repoval
+
+- Új GitHub repo létrehozása (public)
+- Összekapcsolási parancs:
+    > git remote add origin https://mytoken@github.com/govorDori/**repoName**.git
+- Az első alkalommal meg kell mondani az ágat, hová kerüljön:
+    > git push -u origin master
+- Kérni fogja a tokent, private repoból ki kell másolni
